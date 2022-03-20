@@ -1,0 +1,22 @@
+.roditelj
+{
+    color:burlywood;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    border:3px dotted lightblue;
+    height: 200px;
+    align-items: center;
+}
+div
+{
+    border: 1px solid black;
+    font-size: 50px;
+    flex-grow: 1;
+}
+.drugi
+{
+    flex-grow: 2;
+    order: -2;
+}
